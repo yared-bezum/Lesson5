@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CupsConverterInXML</string>
+    <string name="action_settings">Settings</string>
+    <string name="banner_message">Cups to TeaSpoon and TableSpoon Convertor</string>
+    <string name="cups_text">Enter Number of Cups to Convert</string>
+    <string name="teaspoon_Button">toTeaSpoon</string>
+    <string name="tablespoon_Button">toTableSpoon</string>
+</resources>

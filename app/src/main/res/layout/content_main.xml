@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#dcb114" >
+
+    <TextView android:id="@+id/banner_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/banner_message"
+        android:gravity="center_horizontal"
+        android:typeface="sans"
+        android:textSize="50sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+
+        />
+    <EditText android:id="@+id/cups_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:hint="@string/cups_text"
+        android:inputType="numberDecimal"
+              />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+         >
+        <Button
+            android:id="@+id/teaspoon_Button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:hint="@string/teaspoon_Button"
+            android:textStyle="bold"
+            android:background="#0000ff"
+            />
+
+
+        <Button
+            android:id="@+id/tablespoon_Button"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:hint="@string/tablespoon_Button"
+            android:textStyle="bold"
+            android:background="#ff0000"
+            />
+
+
+
+      </LinearLayout>
+
+
+    <TextView android:id="@+id/answerTeaspoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="#0000ff" />
+    <TextView android:id="@+id/answerTablespoon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="30dp"
+        android:paddingBottom="20dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="#FF0000"/>
+
+
+</LinearLayout>
+
